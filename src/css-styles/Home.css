@@ -1,0 +1,82 @@
+.home-container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-containersection {
+  height: 150vh;
+  width: 100%;
+}
+
+.home-container section.first {
+  background: url("https://i.postimg.cc/Hxfyd3D0/yellow-black-blue-cloudy-sky-hd-sky-1600x900.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.user-name {
+  text-align: center;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.content {
+  min-height: 10vh;
+  background: #020101;
+  text-align: center;
+  color: #fff;
+  padding: 100px 100px;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+}
+
+.content p {
+  margin: 20px 0px;
+  font-size: 18px;
+}
+
+.home-container section.second {
+  background: url("https://i.postimg.cc/bNL12xQP/desktop-wallpaper-the-sky-grass-clouds-tree-green-grass-sky-trees-clouds-trees-grass.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.home-container section.third {
+  background: url("https://i.postimg.cc/CKb1b0W8/Dark-Moon-Wallpaper-1600x900-56589.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.home-container section.fourth {
+  background: url("https://i.postimg.cc/Xv58FZjg/colorful-earth-wallpaper-2048x1536.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+footer {
+  height: 100vh;
+  width: 100%;
+  background: #020101;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+}
+
+footer span {
+  color: #af073f;
+}
+
+/*  Bootstrap Button  */
+
+.custom-btn {
+  padding: 0.25rem 0.5rem; /* Adjust padding as needed */
+  font-size: 0.875rem; /* Adjust font size as needed */
+}
